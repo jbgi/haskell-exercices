@@ -1,0 +1,19 @@
+name: haskell-exercices
+version: 0.1.0.0
+cabal-version: >=1.10
+build-type: Simple
+license: MIT
+license-file: LICENSE
+maintainer: jb@giraudeau.info
+homepage: https://github.com/jbgi/haskell-exercices
+author: Jean-Baptiste Giraudeau
+data-dir: ""
+extra-source-files: README.md
+ 
+library
+    build-depends: base >=4.6 && <4.7
+    exposed-modules: Intro
+    exposed: True
+    buildable: True
+    default-language: Haskell2010
+ 
